@@ -1,5 +1,5 @@
 import streamlit as st
-from google.genai import genai
+import google.genai as genai
 from google.genai import types
 from google.genai.errors import APIError
 import json
